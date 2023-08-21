@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-h2 h2 {
+  color: #252525;
+  font-size: 30px;
+  font-weight: 700;
+}
+#header {
+  padding-top: 1pc;
+  height: 65px;
+  flex-shrink: 0;
+  background: #f7f7f7;
+}
+.header-a a {
+  color: #303030;
+  font-size: 16px;
+  margin-left: 3pc;
+  font-weight: 400;
+}
+.q1 {
+  color: #fff;
+  text-align: center;
+  font-family: Now;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 126px;
+  height: 43px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #ff5d24;
+}
+
+/* ////////////////////////////// */
+
+.hero-gl {
+  margin-top: 2pc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-h1 h1 {
+  color: #252525;
+  font-family: Nexa Bold;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero-h1 h1 span {
+  color: #ff5d24;
+  font-family: Nexa Bold;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.q3 {
+  color: #252525;
+  font-family: Now;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.qw1 {
+  margin-top: 2pc;
+  width: 892.684px;
+  position: relative;
+  height: 659px;
+}
+
+.hero-a {
+  position: absolute;
+  width: 234px;
+  left: 15pc;
+  top: 50pc;
+  padding: 3pc 3pc 3pc 2pc;
+  height: 270px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 28px 18px 68px 0px rgba(132, 132, 132, 0.16);
+}
+.a2 {
+  margin-left: 1.9pc;
+  position: absolute;
+  top: 235px;
+}
+.a1 {
+  position: absolute;
+  left: 9pc;
+  top: 259px;
+}
+.as3 {
+  position: absolute;
+  left: 9.8pc;
+  top: 259px;
+}
+
+.hero-b {
+  position: absolute;
+  width: 234px;
+  left: 55pc;
+  top: 30pc;
+  padding: 3pc 3pc 3pc 2pc;
+  height: 270px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 28px 18px 68px 0px rgba(132, 132, 132, 0.16);
+}
